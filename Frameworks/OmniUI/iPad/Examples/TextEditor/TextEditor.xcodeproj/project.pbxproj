@@ -1055,7 +1055,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SDKROOT)$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 				);
 				INFOPLIST_FILE = "Resources/TextEditor-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -1074,7 +1074,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SDKROOT)$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 				);
 				INFOPLIST_FILE = "Resources/TextEditor-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
