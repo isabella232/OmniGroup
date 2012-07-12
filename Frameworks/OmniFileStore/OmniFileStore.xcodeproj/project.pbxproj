@@ -650,7 +650,7 @@
 				3421AEBD0F71F8F50096AADB /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "OmniFileStore" */ = {
 			isa = XCConfigurationList;
@@ -660,7 +660,7 @@
 				3421AEBC0F71F8F50096AADB /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		34C017AF10995295001C110D /* Build configuration list for PBXNativeTarget "ofs" */ = {
 			isa = XCConfigurationList;
@@ -670,7 +670,7 @@
 				34C017A810995279001C110D /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		34D06C67125D203B00CA3963 /* Build configuration list for PBXNativeTarget "OmniFileStoreTouch" */ = {
 			isa = XCConfigurationList;
@@ -680,7 +680,7 @@
 				34D06C57125D202500CA3963 /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

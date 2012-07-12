@@ -651,7 +651,7 @@
 				1DEB91AF08733DA50010E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "OmniUnzip" */ = {
 			isa = XCConfigurationList;
@@ -661,7 +661,7 @@
 				1DEB91B308733DA50010E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		34E20FEE1193158500ECA875 /* Build configuration list for PBXNativeTarget "OmniUnzipTouch" */ = {
 			isa = XCConfigurationList;
@@ -671,7 +671,7 @@
 				34E20FCD119314D200ECA875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
