@@ -201,7 +201,7 @@
 		346C4B931193273600BE8C49 /* OUITextInputStringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C4B071193273600BE8C49 /* OUITextInputStringTokenizer.m */; };
 		346C4B941193273600BE8C49 /* OUITextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 346C4B081193273600BE8C49 /* OUITextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		346C4B951193273600BE8C49 /* OUITextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C4B091193273600BE8C49 /* OUITextLayout.m */; };
-		346C4B961193273600BE8C49 /* OUITextThumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 346C4B0A1193273600BE8C49 /* OUITextThumb.h */; };
+		346C4B961193273600BE8C49 /* OUITextThumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 346C4B0A1193273600BE8C49 /* OUITextThumb.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		346C4B971193273600BE8C49 /* OUITextThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C4B0B1193273600BE8C49 /* OUITextThumb.m */; };
 		346C4B981193273600BE8C49 /* OUITileDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 346C4B0C1193273600BE8C49 /* OUITileDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		346C4B9A1193273600BE8C49 /* OUITiledScalingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 346C4B0E1193273600BE8C49 /* OUITiledScalingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1703,7 +1703,6 @@
 				346C4B901193273600BE8C49 /* OUITextCursorOverlay.h in Headers */,
 				346C4B921193273600BE8C49 /* OUITextInputStringTokenizer.h in Headers */,
 				346C4B941193273600BE8C49 /* OUITextLayout.h in Headers */,
-				346C4B961193273600BE8C49 /* OUITextThumb.h in Headers */,
 				346C4B981193273600BE8C49 /* OUITileDebug.h in Headers */,
 				346C4B9A1193273600BE8C49 /* OUITiledScalingView.h in Headers */,
 				346C4B9C1193273600BE8C49 /* OUIToolbarViewController.h in Headers */,
@@ -1735,6 +1734,7 @@
 				34EA43EC1267A32200BAC7FD /* OUISoftwareUpdatePrivacyAlert.h in Headers */,
 				346C4B531193273600BE8C49 /* OUEFTextPosition.h in Headers */,
 				94D56E10127094F900BFBD4E /* OUIReplaceDocumentAlert.h in Headers */,
+				346C4B961193273600BE8C49 /* OUITextThumb.h in Headers */,
 				343220931270EFAF001B57CB /* OUIFontInspectorPane.h in Headers */,
 				343220A71270F06E001B57CB /* OUIFontUtilities.h in Headers */,
 				94D570FE1270FD3E00BFBD4E /* OUIExportOptionsController.h in Headers */,
