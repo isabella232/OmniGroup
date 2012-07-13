@@ -15,6 +15,7 @@
 #import <OmniUI/OUIScrollNotifier.h>
 #import <OmniUI/OUITextLayout.h>
 #import <OmniAppKit/OATextStorage.h>
+#import <OmniUI/OUITextThumb.h>
 
 @class NSMutableAttributedString;
 
@@ -24,7 +25,7 @@
 
 @class CALayer, CAShapeLayer;
 
-@interface OUIEditableFrame : OUIScalingView <UIKeyInput, UITextInputTraits, UITextInput, OATextStorageDelegate, OUIInspectorDelegate, OUIScrollNotifierDelegate, OUILoupeOverlaySubject>
+@interface OUIEditableFrame : OUIScalingView <UIKeyInput, UITextInputTraits, UITextInput, OATextStorageDelegate, OUIInspectorDelegate, OUIScrollNotifierDelegate, OUILoupeOverlaySubject, OUITextThumbEditor>
 {
 @private
     /* The data model: a text storage and a selection range. */

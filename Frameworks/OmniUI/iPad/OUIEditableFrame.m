@@ -33,7 +33,6 @@
 #import <execinfo.h>
 #import <stdlib.h>
 
-#import "OUITextThumb.h"
 #import "OUEFTextPosition.h"
 #import "OUEFTextRange.h"
 #import "OUITextInputStringTokenizer.h"

@@ -7,8 +7,6 @@
 
 #import "OUITextThumb.h"
 
-#import <OmniUI/OUIEditableFrame.h>
-
 #import <OmniQuartz/OQDrawing.h>
 #import <QuartzCore/QuartzCore.h>
 #import <OmniBase/rcsid.h>
@@ -187,7 +185,7 @@ RCS_ID("$Id$");
 
 - (void)_dragged:(UIPanGestureRecognizer *)gestureRecognizer;
 {
-    OUIEditableFrame *editor = nonretained_editor;
+    UIView <OUITextThumbEditor> *editor = nonretained_editor;
     UIGestureRecognizerState st = gestureRecognizer.state;
     CGPoint delta = [gestureRecognizer translationInView:editor];
  
