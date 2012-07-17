@@ -2042,6 +2042,25 @@
 			};
 			name = Release;
 		};
+		3A12E05B15B5D14B00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346C4A00119326AD00BE8C49 /* Omni-Global-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Distribution;
+		};
+		3A12E05C15B5D14B00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346C4A12119326AD00BE8C49 /* Touch-Library-Release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+				);
+				PRODUCT_NAME = OmniUI;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2050,6 +2069,7 @@
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
 				1DEB922008733DC00010E9CD /* Release */,
+				3A12E05C15B5D14B00B7D678 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -2059,6 +2079,7 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
+				3A12E05B15B5D14B00B7D678 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

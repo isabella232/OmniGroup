@@ -639,6 +639,40 @@
 			};
 			name = Coverage;
 		};
+		3A12E05615B5D14000B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3421AE940F71F89C0096AADB /* Omni-Global-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Distribution;
+		};
+		3A12E05715B5D14000B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3421AE8D0F71F89C0096AADB /* Omni-Framework-Release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Info.plist;
+				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniFileStore;
+				PRODUCT_NAME = OmniFileStore;
+			};
+			name = Distribution;
+		};
+		3A12E05815B5D14000B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D06C66125D203B00CA3963 /* Touch-Library-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = OmniFileStore;
+			};
+			name = Distribution;
+		};
+		3A12E05915B5D14000B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3421AE9C0F71F89C0096AADB /* Omni-Tool-Release.xcconfig */;
+			buildSettings = {
+				GCC_PREFIX_HEADER = OmniFileStore_Prefix.h;
+				PRODUCT_NAME = ofs;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -647,6 +681,7 @@
 			buildConfigurations = (
 				1DEB91AE08733DA50010E9CD /* Debug */,
 				1DEB91AF08733DA50010E9CD /* Release */,
+				3A12E05715B5D14000B7D678 /* Distribution */,
 				3421AEBD0F71F8F50096AADB /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -657,6 +692,7 @@
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
 				1DEB91B308733DA50010E9CD /* Release */,
+				3A12E05615B5D14000B7D678 /* Distribution */,
 				3421AEBC0F71F8F50096AADB /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -667,6 +703,7 @@
 			buildConfigurations = (
 				34C017A610995279001C110D /* Debug */,
 				34C017A710995279001C110D /* Release */,
+				3A12E05915B5D14000B7D678 /* Distribution */,
 				34C017A810995279001C110D /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -677,6 +714,7 @@
 			buildConfigurations = (
 				34D06C55125D202500CA3963 /* Debug */,
 				34D06C56125D202500CA3963 /* Release */,
+				3A12E05815B5D14000B7D678 /* Distribution */,
 				34D06C57125D202500CA3963 /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;

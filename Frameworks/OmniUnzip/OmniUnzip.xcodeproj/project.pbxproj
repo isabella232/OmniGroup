@@ -643,6 +643,40 @@
 			};
 			name = Coverage;
 		};
+		3A12E04615B5D0FD00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424183BD0F44CF990029B4DA /* Omni-Global-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Distribution;
+		};
+		3A12E04715B5D0FD00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424183B60F44CF990029B4DA /* Omni-Framework-Release.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OmniUnzip_Prefix.pch;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.omniunzip;
+				OTHER_CFLAGS = (
+					"$(value)",
+					"-DVERSIONMADEBY=0x0300",
+				);
+				PRODUCT_NAME = OmniUnzip;
+			};
+			name = Distribution;
+		};
+		3A12E04815B5D0FD00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E20FC3119314BE00ECA875 /* Touch-Library-Release.xcconfig */;
+			buildSettings = {
+				GCC_PREFIX_HEADER = OmniUnzip_Prefix.pch;
+				PRODUCT_NAME = OmniUnzip;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -652,6 +686,7 @@
 				1DEB91AE08733DA50010E9CD /* Debug */,
 				34F1F1FB0FC60AD800FC6968 /* Coverage */,
 				1DEB91AF08733DA50010E9CD /* Release */,
+				3A12E04715B5D0FD00B7D678 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -662,6 +697,7 @@
 				1DEB91B208733DA50010E9CD /* Debug */,
 				34F1F1FA0FC60AD800FC6968 /* Coverage */,
 				1DEB91B308733DA50010E9CD /* Release */,
+				3A12E04615B5D0FD00B7D678 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -672,6 +708,7 @@
 				34E20FCB119314D200ECA875 /* Debug */,
 				34E20FCC119314D200ECA875 /* Coverage */,
 				34E20FCD119314D200ECA875 /* Release */,
+				3A12E04815B5D0FD00B7D678 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

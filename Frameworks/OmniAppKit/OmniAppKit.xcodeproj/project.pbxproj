@@ -3059,6 +3059,82 @@
 			};
 			name = Coverage;
 		};
+		3A12E04E15B5D10F00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB8F09D08AD0A0600DBB061 /* Omni-Global-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Distribution;
+		};
+		3A12E04F15B5D10F00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA1EBD208AA772700E2FF6B /* Omni-Framework-Release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = Info.plist;
+				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.OmniAppKit;
+				PRODUCT_NAME = OmniAppKit;
+				SECTORDER_FLAGS = (
+					"-sectorder",
+					__TEXT,
+					__text,
+					"$(PRODUCT_NAME).order",
+				);
+			};
+			name = Distribution;
+		};
+		3A12E05015B5D10F00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB8F09A08AD0A0600DBB061 /* Omni-Bundle-Release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_PREFIX_HEADER = Tests/UnitTests/OAUnitTests_Prefix.h;
+				INFOPLIST_FILE = "Info-OAUnitTests.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(DEVELOPER_FRAMEWORKS_DIR)";
+				PRODUCT_NAME = OAUnitTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+		3A12E05115B5D10F00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA1EBD508AA772700E2FF6B /* Omni-Tool-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = OAMakeImageSizeIntegral;
+			};
+			name = Distribution;
+		};
+		3A12E05215B5D10F00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB8F09A08AD0A0600DBB061 /* Omni-Bundle-Release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Info-OAPatternColorPicker.plist";
+				PRODUCT_NAME = OAPatternColorPicker;
+			};
+			name = Distribution;
+		};
+		3A12E05315B5D10F00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3434792711923B69007D0CE5 /* Touch-Library-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = OmniAppKit;
+			};
+			name = Distribution;
+		};
+		3A12E05415B5D10F00B7D678 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3434792711923B69007D0CE5 /* Touch-Library-Release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_DIR)/Library/Frameworks",
+					"$(value)",
+				);
+				PRODUCT_NAME = OmniAppKitTouchTests;
+			};
+			name = Distribution;
+		};
 		4A4E085708AA75E90098FF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AB8F09C08AD0A0600DBB061 /* Omni-Global-Debug.xcconfig */;
@@ -3235,6 +3311,7 @@
 			buildConfigurations = (
 				3401163611E5181A0016ADB3 /* Debug */,
 				3401163711E5181A0016ADB3 /* Release */,
+				3A12E05415B5D10F00B7D678 /* Distribution */,
 				3401163811E5181A0016ADB3 /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3245,6 +3322,7 @@
 			buildConfigurations = (
 				3434791611923B54007D0CE5 /* Debug */,
 				3434791711923B54007D0CE5 /* Release */,
+				3A12E05315B5D10F00B7D678 /* Distribution */,
 				3434791811923B54007D0CE5 /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3255,6 +3333,7 @@
 			buildConfigurations = (
 				4A4E085708AA75E90098FF0F /* Debug */,
 				4A4E085808AA75E90098FF0F /* Release */,
+				3A12E04E15B5D10F00B7D678 /* Distribution */,
 				4A4E085908AA75E90098FF0F /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3265,6 +3344,7 @@
 			buildConfigurations = (
 				4AA1E7F408AA764600E2FF6B /* Debug */,
 				4AA1E7F508AA764600E2FF6B /* Release */,
+				3A12E04F15B5D10F00B7D678 /* Distribution */,
 				4AA1E7F608AA764600E2FF6B /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3275,6 +3355,7 @@
 			buildConfigurations = (
 				4AA1E80C08AA764600E2FF6B /* Debug */,
 				4AA1E80D08AA764600E2FF6B /* Release */,
+				3A12E05015B5D10F00B7D678 /* Distribution */,
 				4AA1E80E08AA764600E2FF6B /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3285,6 +3366,7 @@
 			buildConfigurations = (
 				4AA1E81A08AA764700E2FF6B /* Debug */,
 				4AA1E81B08AA764700E2FF6B /* Release */,
+				3A12E05115B5D10F00B7D678 /* Distribution */,
 				4AA1E81C08AA764700E2FF6B /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3295,6 +3377,7 @@
 			buildConfigurations = (
 				4AA1E82708AA764700E2FF6B /* Debug */,
 				4AA1E82808AA764700E2FF6B /* Release */,
+				3A12E05215B5D10F00B7D678 /* Distribution */,
 				4AA1E82908AA764700E2FF6B /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
