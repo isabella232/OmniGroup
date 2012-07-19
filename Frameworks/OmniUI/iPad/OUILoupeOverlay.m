@@ -7,7 +7,6 @@
 
 #import "OUILoupeOverlay.h"
 
-#import <OmniUI/OUIScalingView.h>
 #import <OmniQuartz/OQDrawing.h>
 #import <OmniBase/rcsid.h>
 
@@ -108,7 +107,7 @@ RCS_ID("$Id$");
         }
 
         if (subjectView)
-            newFrame = [(OUIScalingView *)subjectView convertRect:newFrame toView:[self superview]];
+            newFrame = [subjectView convertRect:newFrame toView:[self superview]];
         
         self.frame = newFrame;
     }
@@ -142,7 +141,7 @@ RCS_ID("$Id$");
         [animatorClass setAnimationsEnabled:NO];
         CGPoint centerPoint = _touchPoint;
         if (subjectView)
-            centerPoint = [(OUIScalingView *)subjectView convertPoint:centerPoint toView:[self superview]];
+            centerPoint = [subjectView convertPoint:centerPoint toView:[self superview]];
         self.center = centerPoint;
         self.transform = OUILoupeDismissedTransform;
         self.alpha = 1;
@@ -269,7 +268,7 @@ RCS_ID("$Id$");
 {
     CGRect bounds = self.bounds;
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-    OUIScalingView <OUILoupeOverlaySubject> *subject = (subjectView) ? (subjectView) : (OUIScalingView <OUILoupeOverlaySubject> *)(self.superview);
+    UIView <OUILoupeOverlaySubject> *subject = (subjectView) ? (subjectView) : (UIView <OUILoupeOverlaySubject> *)(self.superview);
 
     /* First draw the contents of the subject view */
     CGContextSaveGState(ctx);

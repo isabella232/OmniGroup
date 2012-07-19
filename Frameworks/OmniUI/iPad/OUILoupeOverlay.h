@@ -16,15 +16,13 @@ typedef enum {
     OUILoupeOverlayRectangle,
 } OUILoupeMode;
 
-@class OUIScalingView;
-
 @interface OUILoupeOverlay : UIView
 {
 @private
     OUILoupeMode _mode;           // What kind of loupe we're displaying
     CGPoint _touchPoint;          // The point (in our subject view's bounds coordinates) to display
     CGFloat _scale;               // How much to magnify the subject view
-    OUIScalingView <OUILoupeOverlaySubject> *subjectView;  // If not set, self.superview is used for the subject of display
+    UIView <OUILoupeOverlaySubject> *subjectView;  // If not set, self.superview is used for the subject of display
     
     // These are updated based on the mode
     UIImage *loupeFrameImage;   // The border image to draw around the zoomed view region
@@ -38,7 +36,7 @@ typedef enum {
 @property(readwrite,nonatomic,assign) CGPoint touchPoint;
 @property(readwrite,nonatomic,assign) OUILoupeMode mode;
 @property(readwrite,nonatomic,assign) CGFloat scale;
-@property(readwrite,nonatomic,assign) OUIScalingView <OUILoupeOverlaySubject> *subjectView;
+@property(readwrite,nonatomic,assign) UIView <OUILoupeOverlaySubject> *subjectView;
 
 @end
 
