@@ -62,6 +62,14 @@
 		34DB37EE08C77BDC00BC2748 /* OQTargetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB37EC08C77BDC00BC2748 /* OQTargetAnimation.m */; };
 		34F826FB107E8C0300458A71 /* OQFlipSwapViewAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F826F9107E8C0300458A71 /* OQFlipSwapViewAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34F826FC107E8C0300458A71 /* OQFlipSwapViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34F826FA107E8C0300458A71 /* OQFlipSwapViewAnimation.m */; };
+		3A62D8BD15C2FC7B001A50E9 /* CALayer-OQExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 34CEA14910465F710016EC37 /* CALayer-OQExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A62D8BE15C2FC7B001A50E9 /* OQColor-Archiving.h in Headers */ = {isa = PBXBuildFile; fileRef = 343C98BA117623F900CE0910 /* OQColor-Archiving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A62D8BF15C2FC7B001A50E9 /* OQColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 34ABA7C11056F973007202DA /* OQColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A62D8C015C2FC7B001A50E9 /* OQDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A28C22108ECB460054912D /* OQDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A62D8C115C2FC7B001A50E9 /* OmniQuartzTouch_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 345F498611931B6F00A131E7 /* OmniQuartzTouch_Prefix.h */; };
+		3A62D8C215C2FC7B001A50E9 /* OQDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 345F499611931C7600A131E7 /* OQDebug.h */; };
+		3A62D8C315C2FC7B001A50E9 /* OQContentAnimatingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 343E506E1046EF2F003EF9CD /* OQContentAnimatingLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A62D8C815C2FC7B001A50E9 /* OQDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A28C23108ECB460054912D /* OQDrawing.m */; };
 		4230996311E51BDA007ACF5D /* OQAnimationGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4230996111E51BDA007ACF5D /* OQAnimationGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4230996411E51BDA007ACF5D /* OQAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4230996211E51BDA007ACF5D /* OQAnimationGroup.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
@@ -168,6 +176,7 @@
 		34DB37EC08C77BDC00BC2748 /* OQTargetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQTargetAnimation.m; sourceTree = "<group>"; };
 		34F826F9107E8C0300458A71 /* OQFlipSwapViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQFlipSwapViewAnimation.h; sourceTree = "<group>"; };
 		34F826FA107E8C0300458A71 /* OQFlipSwapViewAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQFlipSwapViewAnimation.m; sourceTree = "<group>"; };
+		3A62D8D015C2FC7B001A50E9 /* libOmniQuartz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOmniQuartz.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4230996111E51BDA007ACF5D /* OQAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OQAnimationGroup.h; sourceTree = "<group>"; };
 		4230996211E51BDA007ACF5D /* OQAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OQAnimationGroup.m; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -179,6 +188,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		345613D21193197700E7D187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A62D8CA15C2FC7B001A50E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,6 +222,7 @@
 			children = (
 				8DC2EF5B0486A6940098B216 /* OmniQuartz.framework */,
 				345613D41193197700E7D187 /* libOmniQuartz.a */,
+				3A62D8D015C2FC7B001A50E9 /* libOmniQuartz.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -406,6 +423,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A62D8BC15C2FC7B001A50E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A62D8BD15C2FC7B001A50E9 /* CALayer-OQExtensions.h in Headers */,
+				3A62D8BE15C2FC7B001A50E9 /* OQColor-Archiving.h in Headers */,
+				3A62D8BF15C2FC7B001A50E9 /* OQColor.h in Headers */,
+				3A62D8C015C2FC7B001A50E9 /* OQDrawing.h in Headers */,
+				3A62D8C115C2FC7B001A50E9 /* OmniQuartzTouch_Prefix.h in Headers */,
+				3A62D8C215C2FC7B001A50E9 /* OQDebug.h in Headers */,
+				3A62D8C315C2FC7B001A50E9 /* OQContentAnimatingLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DC2EF500486A6940098B216 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,6 +484,23 @@
 			productReference = 345613D41193197700E7D187 /* libOmniQuartz.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		3A62D8BB15C2FC7B001A50E9 /* DLOmniQuartzTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A62D8CB15C2FC7B001A50E9 /* Build configuration list for PBXNativeTarget "DLOmniQuartzTouch" */;
+			buildPhases = (
+				3A62D8BC15C2FC7B001A50E9 /* Headers */,
+				3A62D8C415C2FC7B001A50E9 /* Sources */,
+				3A62D8CA15C2FC7B001A50E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLOmniQuartzTouch;
+			productName = OmniQuartzTouch;
+			productReference = 3A62D8D015C2FC7B001A50E9 /* libOmniQuartz.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		8DC2EF4F0486A6940098B216 /* OmniQuartz */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34DB335A08C62AB500BC2748 /* Build configuration list for PBXNativeTarget "OmniQuartz" */;
@@ -495,6 +543,7 @@
 			targets = (
 				8DC2EF4F0486A6940098B216 /* OmniQuartz */,
 				345613D31193197700E7D187 /* OmniQuartzTouch */,
+				3A62D8BB15C2FC7B001A50E9 /* DLOmniQuartzTouch */,
 			);
 		};
 /* End PBXProject section */
@@ -521,6 +570,14 @@
 				345613DD119319B200E7D187 /* OQColor.m in Sources */,
 				345613DF119319B700E7D187 /* OQDrawing.m in Sources */,
 				3499565511B08C1700A5C9BE /* OQContentAnimatingLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A62D8C415C2FC7B001A50E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A62D8C815C2FC7B001A50E9 /* OQDrawing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +729,42 @@
 			};
 			name = Distribution;
 		};
+		3A62D8CC15C2FC7B001A50E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345613C71193195A00E7D187 /* Touch-Library-Debug.xcconfig */;
+			buildSettings = {
+				GCC_PREFIX_HEADER = OmniQuartzTouch_Prefix.h;
+				PRODUCT_NAME = OmniQuartz;
+			};
+			name = Debug;
+		};
+		3A62D8CD15C2FC7B001A50E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345613C81193195A00E7D187 /* Touch-Library-Release.xcconfig */;
+			buildSettings = {
+				GCC_PREFIX_HEADER = OmniQuartzTouch_Prefix.h;
+				PRODUCT_NAME = OmniQuartz;
+			};
+			name = Release;
+		};
+		3A62D8CE15C2FC7B001A50E9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345613C81193195A00E7D187 /* Touch-Library-Release.xcconfig */;
+			buildSettings = {
+				GCC_PREFIX_HEADER = OmniQuartzTouch_Prefix.h;
+				PRODUCT_NAME = OmniQuartz;
+			};
+			name = Distribution;
+		};
+		3A62D8CF15C2FC7B001A50E9 /* Coverage */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 345613C61193195A00E7D187 /* Touch-Library-Coverage.xcconfig */;
+			buildSettings = {
+				GCC_PREFIX_HEADER = OmniQuartzTouch_Prefix.h;
+				PRODUCT_NAME = OmniQuartz;
+			};
+			name = Coverage;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -704,6 +797,17 @@
 				34DB336008C62AB500BC2748 /* Release */,
 				3A12E04A15B5D10400B7D678 /* Distribution */,
 				34DB336108C62AB500BC2748 /* Coverage */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3A62D8CB15C2FC7B001A50E9 /* Build configuration list for PBXNativeTarget "DLOmniQuartzTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A62D8CC15C2FC7B001A50E9 /* Debug */,
+				3A62D8CD15C2FC7B001A50E9 /* Release */,
+				3A62D8CE15C2FC7B001A50E9 /* Distribution */,
+				3A62D8CF15C2FC7B001A50E9 /* Coverage */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
