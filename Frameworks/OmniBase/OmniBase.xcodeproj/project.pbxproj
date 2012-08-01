@@ -192,13 +192,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A62D8B315C2FC45001A50E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A33D41F08A0191B003A3FA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -465,8 +458,6 @@
 			buildConfigurationList = 3A62D8B415C2FC45001A50E9 /* Build configuration list for PBXNativeTarget "DLOmniBaseTouch" */;
 			buildPhases = (
 				3A62D89C15C2FC45001A50E9 /* Headers */,
-				3A62D8AA15C2FC45001A50E9 /* Sources */,
-				3A62D8B315C2FC45001A50E9 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -574,13 +565,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				34778CE211810C1800EC28C1 /* OBLoadBundle.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A62D8AA15C2FC45001A50E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
