@@ -165,7 +165,8 @@ static inline Class OBClassForPointer(id object)
     if (OBPointerIsClass(object))
 	return object;
     else
-	return object->isa;
+    // DLADD 2012Aug10: Replace deprecated object->isa with object_getClass(object) for compiling with Xcode 4.4
+	return object_getClass(object);
 }
 
 static inline BOOL OBClassIsSubclassOfClass(Class subClass, Class superClass)
