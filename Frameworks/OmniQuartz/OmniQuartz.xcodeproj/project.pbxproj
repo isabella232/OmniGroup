@@ -526,6 +526,9 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
 			buildConfigurationList = 34DB335E08C62AB500BC2748 /* Build configuration list for PBXProject "OmniQuartz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -652,6 +655,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34DB336C08C62ABA00BC2748 /* Omni-Framework-Debug.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniQuartz;
 				PRODUCT_NAME = OmniQuartz;
@@ -662,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34DB336D08C62ABA00BC2748 /* Omni-Framework-Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniQuartz;
 				PRODUCT_NAME = OmniQuartz;
@@ -672,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34DB336B08C62ABA00BC2748 /* Omni-Framework-Coverage.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniQuartz;
 				PRODUCT_NAME = OmniQuartz;
@@ -714,6 +720,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34DB336D08C62ABA00BC2748 /* Omni-Framework-Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniQuartz;
 				PRODUCT_NAME = OmniQuartz;

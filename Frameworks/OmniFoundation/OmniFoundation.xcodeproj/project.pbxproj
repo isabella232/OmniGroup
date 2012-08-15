@@ -3123,6 +3123,9 @@
 /* Begin PBXProject section */
 		00E51C5BFE8AAEA611C9CC38 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
 			buildConfigurationList = 4AD1C16408A9803A00C087FE /* Build configuration list for PBXProject "OmniFoundation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -3819,6 +3822,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A4E080B08AA73400098FF0F /* Omni-Framework-Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniFoundation;
 				OTHER_LDFLAGS = (
@@ -3858,6 +3862,7 @@
 		3A12E03D15B5D0F600B7D678 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DYLIB_INSTALLED_NAME_normal = "$(FRAMEWORK_INSTALLED_NAME)";
 				FRAMEWORK_INSTALLED_NAME = "$(OMNI_FRAMEWORK_TARGET_PATH)$(/)$(PRODUCT_NAME).$(WRAPPER_EXTENSION)$(/)Versions$(/)$(FRAMEWORK_VERSION)$(/)$(PRODUCT_NAME)";
@@ -3883,6 +3888,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AB8F38908AD0CA100DBB061 /* Omni-Bundle-Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
@@ -3981,6 +3987,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A4E080A08AA73400098FF0F /* Omni-Framework-Debug.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniFoundation;
 				OTHER_LDFLAGS = (
@@ -4001,6 +4008,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A4E080B08AA73400098FF0F /* Omni-Framework-Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniFoundation;
 				OTHER_LDFLAGS = (
@@ -4021,6 +4029,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A4E080908AA73400098FF0F /* Omni-Framework-Coverage.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniFoundation;
 				OTHER_LDFLAGS = (
@@ -4040,6 +4049,7 @@
 		4A4E076208AA72B10098FF0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -4067,6 +4077,7 @@
 		4A4E076308AA72B10098FF0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DYLIB_INSTALLED_NAME_normal = "$(FRAMEWORK_INSTALLED_NAME)";
 				FRAMEWORK_INSTALLED_NAME = "$(OMNI_FRAMEWORK_TARGET_PATH)$(/)$(PRODUCT_NAME).$(WRAPPER_EXTENSION)$(/)Versions$(/)$(FRAMEWORK_VERSION)$(/)$(PRODUCT_NAME)";
@@ -4091,6 +4102,7 @@
 		4A4E076408AA72B10098FF0F /* Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -4189,6 +4201,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AB8F38808AD0CA100DBB061 /* Omni-Bundle-Debug.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
@@ -4213,6 +4226,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AB8F38908AD0CA100DBB061 /* Omni-Bundle-Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
@@ -4231,6 +4245,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AB8F38708AD0CA100DBB061 /* Omni-Bundle-Coverage.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",

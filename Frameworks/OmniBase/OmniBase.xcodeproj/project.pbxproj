@@ -493,6 +493,9 @@
 /* Begin PBXProject section */
 		00E51C1BFE8AAE2511C9CC38 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
 			buildConfigurationList = 4AA3CEDC08A01555004389CD /* Build configuration list for PBXProject "OmniBase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -696,6 +699,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AAFAE1A08A0216200E04045 /* Omni-Framework-Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniBase;
@@ -773,6 +777,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AAFAE1908A0216200E04045 /* Omni-Framework-Debug.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "";
@@ -791,6 +796,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AAFAE1A08A0216200E04045 /* Omni-Framework-Release.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniBase;
@@ -808,6 +814,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AAFAE1808A0216200E04045 /* Omni-Framework-Coverage.xcconfig */;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_ENABLE_OBJC_GC = supported;
 				INFOPLIST_FILE = Info.plist;
 				OMNI_BUNDLE_IDENTIFIER = com.omnigroup.framework.OmniBase;
