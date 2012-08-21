@@ -406,6 +406,7 @@
 		3A62D83115C2F8D7001A50E9 /* NSString-OFExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E51D3EFE8AAEA611C9CC38 /* NSString-OFExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A62D83215C2F8D7001A50E9 /* NSInvocation-OFExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E51D33FE8AAEA611C9CC38 /* NSInvocation-OFExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A62D83315C2F8D7001A50E9 /* OFBacktrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 343BEAAD1348F00F00F66333 /* OFBacktrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AFF307F15E41CFD00CA0C19 /* OFErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 344D0A891190DB4700264D89 /* OFErrors.m */; };
 		4A45FF630CA489E600752880 /* NSConditionLock-OFFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A45FF610CA489E600752880 /* NSConditionLock-OFFixes.m */; };
 		4A4E060008AA72B10098FF0F /* OFAddScriptCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A71C400663D4F40097A113 /* OFAddScriptCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A4E060108AA72B10098FF0F /* OFRemoveScriptCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A71C420663D4F40097A113 /* OFRemoveScriptCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1512,6 +1513,13 @@
 				3475FBEE0D7481F50050931A /* OmniFoundation.framework in Frameworks */,
 				3475FBF00D7481FE0050931A /* Foundation.framework in Frameworks */,
 				3475FBF10D7482010050931A /* OmniBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFF307E15E41CEF00CA0C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2992,6 +3000,8 @@
 			buildConfigurationList = 3A62D88D15C2F8D7001A50E9 /* Build configuration list for PBXNativeTarget "DLOmniFoundationTouch" */;
 			buildPhases = (
 				3A62D7D215C2F8D7001A50E9 /* Headers */,
+				3AFF307C15E41CED00CA0C19 /* Sources */,
+				3AFF307E15E41CEF00CA0C19 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -3334,6 +3344,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3475FBD20D747F550050931A /* OFCrashOnExceptionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFF307C15E41CED00CA0C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFF307F15E41CFD00CA0C19 /* OFErrors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -53,6 +53,7 @@
 		3A62D8A715C2FC45001A50E9 /* objc.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BBACA80BA76AA2002DA71E /* objc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A62D8A815C2FC45001A50E9 /* OBBacktraceBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = A2E007850E5CA926007709A5 /* OBBacktraceBuffer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		3A62D8A915C2FC45001A50E9 /* OBRuntimeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 34172BA3119C88DB00F7FD6A /* OBRuntimeCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AFF307B15E41CD700CA0C19 /* NSError-OBExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 347049740CFB6612007025F7 /* NSError-OBExtensions.m */; };
 		4A33D40808A0191B003A3FA5 /* assertions.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E51C23FE8AAE2511C9CC38 /* assertions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A33D40A08A0191B003A3FA5 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E51C25FE8AAE2511C9CC38 /* macros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A33D40C08A0191B003A3FA5 /* NSData-OBObjectCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E51C27FE8AAE2511C9CC38 /* NSData-OBObjectCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -189,6 +190,13 @@
 			files = (
 				34778CE911810D5700EC28C1 /* Foundation.framework in Frameworks */,
 				34778CED11810D5B00EC28C1 /* OmniBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFF307A15E41CC400CA0C19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +466,8 @@
 			buildConfigurationList = 3A62D8B415C2FC45001A50E9 /* Build configuration list for PBXNativeTarget "DLOmniBaseTouch" */;
 			buildPhases = (
 				3A62D89C15C2FC45001A50E9 /* Headers */,
+				3AFF307815E41CC100CA0C19 /* Sources */,
+				3AFF307A15E41CC400CA0C19 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -568,6 +578,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				34778CE211810C1800EC28C1 /* OBLoadBundle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFF307815E41CC100CA0C19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFF307B15E41CD700CA0C19 /* NSError-OBExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
