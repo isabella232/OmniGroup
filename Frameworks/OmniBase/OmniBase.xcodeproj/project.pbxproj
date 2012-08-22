@@ -772,6 +772,7 @@
 			baseConfigurationReference = 34354D221190BFC700FE1BEB /* Touch-Library-Release.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = OmniBase;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -780,6 +781,7 @@
 			baseConfigurationReference = 34354D221190BFC700FE1BEB /* Touch-Library-Release.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = OmniBase;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Distribution;
 		};

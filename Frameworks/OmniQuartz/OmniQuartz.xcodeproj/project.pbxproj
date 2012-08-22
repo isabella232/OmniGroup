@@ -639,6 +639,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = "$(TARGET_NAME)_Prefix.h";
 				PRODUCT_NAME = OmniQuartz;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -733,6 +734,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = "$(TARGET_NAME)_Prefix.h";
 				PRODUCT_NAME = OmniQuartz;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Distribution;
 		};
@@ -751,6 +753,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = OmniQuartzTouch_Prefix.h;
 				PRODUCT_NAME = OmniQuartz;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -760,6 +763,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = OmniQuartzTouch_Prefix.h;
 				PRODUCT_NAME = OmniQuartz;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Distribution;
 		};

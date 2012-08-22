@@ -2428,6 +2428,7 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 				);
 				PRODUCT_NAME = OmniUI;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -2440,6 +2441,7 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 				);
 				PRODUCT_NAME = OmniUI;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Distribution;
 		};

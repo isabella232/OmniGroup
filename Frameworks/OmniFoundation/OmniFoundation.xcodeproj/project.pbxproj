@@ -3982,6 +3982,7 @@
 			baseConfigurationReference = 344D08D11190D48A00264D89 /* Touch-Library-Release.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = OmniFoundation;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -3990,6 +3991,7 @@
 			baseConfigurationReference = 344D08D11190D48A00264D89 /* Touch-Library-Release.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = OmniFoundation;
+				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Distribution;
 		};
